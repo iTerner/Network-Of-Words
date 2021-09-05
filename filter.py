@@ -1,3 +1,7 @@
+"""
+This script is responsible for filtering the embedding file to the selected threshold and saving the results.
+"""
+
 import pandas as pd
 import csv
 

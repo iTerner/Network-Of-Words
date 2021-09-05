@@ -1,3 +1,7 @@
+"""
+The script is responsible for downloading the corpora from Wikipedia. 
+"""
+
 import jieba
 import logging
 import math

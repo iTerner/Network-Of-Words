@@ -1,3 +1,7 @@
+"""
+This script is responsible for the creation of the graph from our embedding file. 
+"""
+
 import io
 import codecs
 import numpy as np

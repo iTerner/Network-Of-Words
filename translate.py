@@ -1,3 +1,7 @@
+"""
+The script is responsible for translating files to English from different languages.
+"""
+
 from googletrans import Translator
 import pandas as pd
 import csv

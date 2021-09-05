@@ -1,3 +1,7 @@
+"""
+This script is responsible for computing and saving the results of the graph features and clustering process.
+"""
+
 from sklearn import cluster
 import numpy as np
 from fitter import Fitter, get_common_distributions, get_distributions
@@ -7,7 +11,6 @@ import networkx as nx
 import community
 import matplotlib.pyplot as plt
 
-plt.style.use("ggplot")
 
 LANG_MAP = {"en": "English", "de": "German", "fr": "French", "es": "Spanish"}
 

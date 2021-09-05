@@ -1,8 +1,11 @@
+"""
+This script is responsible for creating the average degree and std plots of the graph in addition to the
+frequency plots of each degree.
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-
-plt.style.use("ggplot")
 
 
 def freq_degree_plot(data: pd.DataFrame, vector_size: int, window_size: int, threshold: int, xloglabel=False, yloglabel=False) -> None:
