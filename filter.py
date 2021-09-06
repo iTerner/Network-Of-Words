@@ -34,7 +34,7 @@ def data_filter(lang: str, size: int, vector_size: int, win_size: int) -> None:
     """
     # open the frequency list of the selected language
     freq = pd.read_csv(
-        f"dictionarys/{lang}_dictionary.txt", sep="\t", encoding="latin-1")
+        f"dictionaries/{lang}_dictionary.txt", sep="\t", encoding="latin-1")
     freq = freq[freq["times"] >= size]
     words = freq["word"].values
     print(words)

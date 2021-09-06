@@ -51,7 +51,7 @@ def download_wiki_dump(lang: str, path: str):
 class WikiSentences:
     def __init__(self, wiki_dump_path: str, lang: str):
         logging.info('Parsing wiki corpus')
-        dict_file = f"data/{lang}_dictionary.txt"
+        dict_file = f"dictionaries/{lang}_dictionary.txt"
         if os.path.exists(dict_file):
             logging.info("loading dictionary file")
             dictionary = Dictionary.load_from_text(dict_file)

@@ -109,7 +109,7 @@ def create_graph(f: str) -> None:
     print(f"selected language is {lang}")
     # open the frequency file of the selected language
     d = pd.read_csv(
-        f"dictionarys/{lang}_dictionary.txt", sep="\t", encoding="latin-1")
+        f"dictionaries/{lang}_dictionary.txt", sep="\t", encoding="latin-1")
 
     # starting the building process
     index = 0
